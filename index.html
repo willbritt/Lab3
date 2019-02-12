@@ -1,8 +1,56 @@
 <html>
 <body>
-<h1 id="header" onclick="fun1()">Hello Web</h1>
+<h1 id="header" onclick="step1()">Don't Open it !!!</h1>
 </body>
-  <img src="goku.jpg" alt="Picture of Goku" width=300 height=404 />
-<script scr="js/lab3.js">
+<div id="dragon" style="display:none" >
+  <img src="dragon.png" width=1300 height=400 />
+</div>
+<div id="p1" style="display:none">
+  <p id = "step2.1"><font size="6">
+    Seems like an Angry dragon was summoned !<br/>
+    He caught us !!<br/>
+    What should we do !!!
+    <font>
+  </p>
+  <button onclick=step2() type="button" id="button1">I don't know!!!</button>
+</div>
+<div id="p2" style="display:none">
+  <p id = "step2.1"><font size="6">
+    Dragon:<br/>
+    Why are you bothering me?<br/>
+    If you solve the game, I will let you go <br/>
+    or I will kill you!!
+    <font>
+  </p>
+    <button onclick=step3() type="button" id="button2">OK...</button>
+</div>
+<div id="begin" style="display:none">
+  <img id="img1" onclick=img1() src="back.png"  width=200 height=304 />
+  <img id="img2" onclick=img2() src="back.png"  width=200 height=304 />
+  <img id="img3" onclick=img3() src="back.png"  width=200 height=304 />
+  <img id="img4" onclick=img4() src="back.png"  width=200 height=304 />
+  <img id="img5" onclick=img5() src="back.png"  width=200 height=304 />
+  <img id="img6" onclick=img6() src="back.png"  width=200 height=304 />
+</div>
+<div id="p3" style="display:none">
+  <p id = "step2.1"><font size="6">
+    Dragon:<br/>
+    Fine!<br/>
+    You Won! <br/>
+    You are free to go!!
+    <font>
+  </p>
+</div>
+<div id="p4" style="display:none">
+  <p id = "step2.1"><font size="6">
+    Dragon:<br/>
+    GOOD !<br/>
+    YOU LOSE !! <br/>
+    DIE! INSECT!!!
+    <font>
+  </p>
+</div>
+<script src="Java/lab3.js">
 </script>
 </html>
+
